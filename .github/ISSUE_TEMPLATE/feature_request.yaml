@@ -8,20 +8,14 @@ body:
       label: 📚 Functionele omschrijving
       description: Een functionele omschrijving van de feature. Beschrijf in detail hoe je wilt dat het gaat werken
   - type: input
-    id: contact-bedrijf
+    id: contact
     attributes:
-      label: 🙋‍ Contactinformatie melder - naam bedrijf
-      description: De naam van het bedrijf wat dit issue heeft gemeld
-  - type: input
-    id: contact-persoon
-    attributes:
-      label: 🙋 Contactinformatie melder - naam contactpersoon
-      description: De naam van de persoon die dit issue heeft gemeld
-  - type: textarea
-    id: contact-extra
-    attributes:
-      label: 🙋 Contactinformatie melder - extra informatie
-      description: Extra informatie zoals een link naar externe conversaties of een pdf van een email
+      label: 🙋‍ Contactinformatie melder
+      description: De contactinformatie van het bedrijf / de persoon die dit issue gemeld heeft
+      value: |
+        Persoon: _De naam van de persoon die dit issue heeft gemeld_
+        Bedrijf: _De naam van het bedrijf wat dit issue heeft gemeld_
+        Extra informatie: _extra informatie zoals een link naar externe conversaties of een pdf van een email_
   - type: textarea
     id: externe-afhankelijkheden
     attributes:
