@@ -23,7 +23,7 @@ body:
       label: 🙋 Contactinformatie melder - extra informatie
       description: Extra informatie zoals een link naar externe conversaties of een pdf van een email
   - type: textarea
-  - id: externe-afhankelijkheden
+    id: externe-afhankelijkheden
     attributes:
       label: 👀 Externe afhankelijkheden
       description: Externe afhankelijkheden waar we op moeten wachten voordat we de feature kunnen maken. Zoals bv, authenticatie ontvangen voor communicatie met extern systeem 
