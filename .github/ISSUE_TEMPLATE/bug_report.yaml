@@ -29,18 +29,16 @@ body:
       description: Randvoorwaarden (ingelogde gebruiker, browser, etc.)
       placeholder: |
         Treedt op sinds:
-  - type: input
-    id: contact-bedrijf
-    attributes:
-      label: 🙋‍ Contactinformatie melder - naam bedrijf
-      description: De naam van het bedrijf wat dit issue heeft gemeld
-  - type: input
-    id: contact-persoon
-    attributes:
-      label: 🙋 Contactinformatie melder - naam contactpersoon
-      description: De naam van de persoon die dit issue heeft gemeld
   - type: textarea
-    id: contact-extra
+    id: contact
     attributes:
-      label: 🙋 Contactinformatie melder - extra informatie
-      description: Extra informatie zoals een link naar externe conversaties of een pdf van een email
+      label: 🙋‍ Contactinformatie melder
+      description: |
+        De contactinformatie van het bedrijf / de persoon die dit issue gemeld heeft
+        - De naam van de persoon die dit issue heeft gemeld
+        - De naam van het bedrijf wat dit issue heeft gemeld
+        - Extra informatie zoals een link naar externe conversaties of een pdf van een email
+      value: |
+        Persoon: 
+        Bedrijf: 
+        Extra informatie: 
