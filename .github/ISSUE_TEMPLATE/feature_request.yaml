@@ -1,0 +1,29 @@
+name: Feature request
+description: Gebruik dit template om een nieuwe feature aan te vragen
+labels: "\U0001F680 feature"
+body:
+  - type: input
+    id: omschrijving
+    attributes:
+      label: 📚 Functionele omschrijving
+      description: Een functionele omschrijving van de feature. Beschrijf in detail hoe je wilt dat het gaat werken
+  - type: input
+    id: contact-bedrijf
+    attributes:
+      label: 🙋‍ Contactinformatie melder - naam bedrijf
+      description: De naam van het bedrijf wat dit issue heeft gemeld
+  - type: input
+    id: contact-persoon
+    attributes:
+      label: 🙋 Contactinformatie melder - naam contactpersoon
+      description: De naam van de persoon die dit issue heeft gemeld
+  - type: textarea
+    id: contact-extra
+    attributes:
+      label: 🙋 Contactinformatie melder - extra informatie
+      description: Extra informatie zoals een link naar externe conversaties of een pdf van een email
+  - type: textarea
+  - id: externe-afhankelijkheden
+    attributes:
+      label: 👀 Externe afhankelijkheden
+      description: Externe afhankelijkheden waar we op moeten wachten voordat we de feature kunnen maken. Zoals bv, authenticatie ontvangen voor communicatie met extern systeem 
