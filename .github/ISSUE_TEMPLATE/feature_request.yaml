@@ -7,7 +7,7 @@ body:
     attributes:
       label: 📚 Functionele omschrijving
       description: Een functionele omschrijving van de feature. Beschrijf in detail hoe je wilt dat het gaat werken
-  - type: input
+  - type: textarea
     id: contact
     attributes:
       label: 🙋‍ Contactinformatie melder
