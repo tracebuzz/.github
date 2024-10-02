@@ -11,11 +11,15 @@ body:
     id: contact
     attributes:
       label: 🙋‍ Contactinformatie melder
-      description: De contactinformatie van het bedrijf / de persoon die dit issue gemeld heeft
+      description: |
+        De contactinformatie van het bedrijf / de persoon die dit issue gemeld heeft
+        - De naam van de persoon die dit issue heeft gemeld
+        - De naam van het bedrijf wat dit issue heeft gemeld
+        - Extra informatie zoals een link naar externe conversaties of een pdf van een email
       value: |
-        Persoon: _De naam van de persoon die dit issue heeft gemeld_
-        Bedrijf: _De naam van het bedrijf wat dit issue heeft gemeld_
-        Extra informatie: _extra informatie zoals een link naar externe conversaties of een pdf van een email_
+        Persoon: 
+        Bedrijf: 
+        Extra informatie: 
   - type: textarea
     id: externe-afhankelijkheden
     attributes:
